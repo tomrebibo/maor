@@ -1,6 +1,1 @@
----
-
-- name: sso_app
-  hosts: cm9540tomking
-  tasks:
-  - import_tasks: ../../base/collectd/tasks.yml
+./main.yml
