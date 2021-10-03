@@ -1,1 +1,6 @@
-tom
+---
+
+- name: sso_app
+  hosts: saaamaak
+  tasks:
+  - import_tasks: ../../base/collectd/tasks.yml
