@@ -1,6 +1,6 @@
 ---
 
 - name: sso_app
-  hosts: hellomalach
+  hosts: last
   tasks:
   - import_tasks: ../../base/collectd/tasks.yaml
