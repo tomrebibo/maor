@@ -1,6 +1,6 @@
 ---
 
 - name: sso_app
-  hosts: 1,2,3
+  hosts: 1
   tasks:
   - import_tasks: ../../base/collectd/tasks.yml
