@@ -1,0 +1,6 @@
+---
+
+- name: nitur
+  hosts: shahar
+  tasks:
+  - import_tasks: ../../base/collectd/tasks.yaml
