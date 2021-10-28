@@ -1,0 +1,6 @@
+---
+,
+,- name: sso_app
+,  hosts: host
+,  tasks:
+,  - import_tasks: ../../base/collectd/tasks.yaml
