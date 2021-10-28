@@ -1,0 +1,6 @@
+---
+
+- name: sso  hosts: sharatim
+  tasks:
+  - include_vars: ../../common-vars.yaml
+  - import_tasks: ../../base/telegraf-win/tasks.yaml
