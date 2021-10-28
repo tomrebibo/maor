@@ -1,0 +1,5 @@
+---
+
+- name: sso
+  hosts: sharatim
+  - import_tasks: ../../base/telegraf-win/tasks.yaml
